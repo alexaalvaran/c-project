@@ -70,3 +70,45 @@ body{
     padding: 20x 10px;
     box-shadow: 0 0 10px var(--shadow-color);
 }
+
+.letter > .text{
+    font-size: 10px;
+    color: var(--txt-color);
+    text-align: left;
+}
+
+.heart{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: var(--heart-color);
+    z-index: 4;
+    transform: translate(-50%, -20%) rotate(45deg);
+    transition: transform 0.5s ease-in-out 1s;
+    box-shadow: 0 0 10px var(--shadown-color);
+    cursor: pointer;
+}
+
+.heart::before,
+.heart::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: var(--heart-color);
+    border-radius:50%;
+}
+.heart::before{
+    top: -7.5px;
+}
+
+.heart::after{
+    right: 7.5px;
+}
+
+.flap > .envelope::before(
+    z-index: 0;
+    transofrm: rotateX(180deg);
+)
