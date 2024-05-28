@@ -3,6 +3,20 @@ body{
     margin: 0 auto;
 }
 
+h3{
+    color: white;
+    text-align: center;
+    
+}
+
+button{
+    color: rgb(158, 25, 16);
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    border: 0px;
+}
+
 .photos{
     display: flex;
     flex-flow: wrap;
@@ -24,6 +38,6 @@ figure img{
 
 figure figcaption{
    text-align: center;   
-   color: black;
+   color: rgb(126, 130, 127);
    margin-top: 4px;
 }
