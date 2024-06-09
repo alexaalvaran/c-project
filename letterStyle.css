@@ -128,11 +128,3 @@ body{
     transform: rotate(90deg);
     transition-delay: 0.4s;
 }
-
-button{
-    color: rgb(255, 128, 128);
-    background-color: white;
-    display: block;
-    margin: 20px auto;
-    border: 0px;
-}
