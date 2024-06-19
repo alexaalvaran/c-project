@@ -19,3 +19,9 @@ button{
 .buttons{
     text-align: center;
 }
+
+.playlist{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
